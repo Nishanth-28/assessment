@@ -1,0 +1,168 @@
+#main-wrap{
+    margin-top: 100px;
+    position: fixed;
+}
+
+
+#leftmenu_main
+{
+    width:150px;
+    height:65%;
+    background-color:#358cce;
+    left:0;
+    right:0;
+    margin-top: 150px;
+}
+
+#leftmenu_main ul
+{
+    list-style: none;
+   
+    width:204px;
+}
+
+
+#leftmenu_main h3
+{
+    list-style: none;
+   
+    width:204px;
+    color:#FFFFFF;
+   
+}
+
+#leftmenu_main ul li
+{
+    
+    
+    width:204px;
+    text-align:left;
+}
+
+#leftmenu_main ul li a, #leftmenu_main ul li a:visited
+{
+    display: list-item;
+    list-style: none;
+   
+    width:192px;
+    height:50px;
+    text-align:left;
+   
+    background-repeat:repeat-x;
+    margin-top:5px;
+    color:#FFFFFF;
+    text-decoration:none;
+    font-size:15px;
+    font-weight:bold;
+}
+
+#leftmenu_main ul li a:hover
+{
+    color:#87BCF8;
+
+
+}
+
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 May, 2016, 2:50:24 PM
+    Author     : cjp
+*/
+/* sizes */
+
+
+
+
+
+input[type=button],input[type=submit]{
+    background-color: #358cce;
+    padding: 10px 22px;
+    font-weight: bold;
+}
+
+input[type=button],input[type=submit],select optgroup{
+     /* Green */
+    border: none;
+    border-radius: 0.5em;
+    color: blue;
+    background-color: #358cce;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+}
+label, select optgroup{
+    display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  color: blue;
+ 
+}
+input[type=text],input[type=password]{
+    
+}
+input[type=button],input[type=submit]{
+    border:2px groove #358cce;
+    display: inline-block;
+  
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:white ;
+  background-color:#358cce;
+  border: none;
+
+ 
+    
+}
+input[type=checkbox],input[type=radiobutton]{
+    color: blue;
+    background-color:black;
+}
+
+
+h2{
+  color: white;
+    text-align: center;
+}
+
+input[type=button]:hover,input[type=submit]:hover {background-color: #3e8e41}
+
+input[type=text]:active,input[type=password]:active{}
+input[type=button]:active,input[type=submit]:active {
+  background-color: #358cce;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+tr{
+    height: 40px;
+}
+select{
+  width: 150px;
+  height: 18px;
+  
+  color: #8080ff;
+}
+select option { color: black; }
+select option:first-child{
+  color: green;
+}
+input[type=checkbox]:not(old) + label,
+input[type=radio   ]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -28px;
+  padding-left : 28px;
+  background   : url('checks.png') no-repeat 0 0;
+  line-height  : 24px;
+}
+

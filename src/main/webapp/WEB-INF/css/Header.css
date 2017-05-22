@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 Aug, 2016, 4:04:13 PM
+    Author     : cjp
+*/
+
+
+#maintbl{
+    
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    background: red;
+    
+}
+#dynamicHead{
+    color:white; 
+    font-size: 30px;
+    font-family:Media Gothic;
+    font-weight: bold;
+    
+}
+
+#mainHead{
+    
+    color: white;
+    font-size: 35px;
+    font-family: Media Gothic;
+    font-weight: bold;
+    
+   
+}
+#header{
+    position: inherit;
+}
+#maintbl a{
+    color:white;
+}

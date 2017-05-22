@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Jul, 2016, 6:18:22 PM
+    Author     : cjp
+*/
+*{
+    
+}
+#middle-wrap{
+    
+    overflow:hidden;  
+    border: 2px solid #358cce;
+ 
+}
+table{
+ 
+    table-layout: fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0; 
+}
+
+input[type=button],input[type=submit]{
+    background-color: #358cce;
+    padding: 10px 22px;
+    font-weight: bold;
+}
+
+input[type=button],input[type=submit],select optgroup{
+     /* Green */
+    border: none;
+    border-radius: 0.5em;
+    color: blue;
+    background-color: #358cce;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+label, select optgroup{
+    display: auto;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+ 
+  outline: none;
+  border: none;
+  color: red;
+ 
+}
+input[type=text],input[type=password]{
+    
+}
+input[type=button],input[type=submit]{
+    border:2px groove #358cce;
+    display: inline-block;
+  
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:white ;
+  background-color:#358cce;
+  border: none;
+
+ 
+    
+}
+input[type=checkbox],input[type=radiobutton]{
+    color: blue;
+    background-color:black;
+}
+
+
+input[type=button]:hover,input[type=submit]:hover {background-color: #3e8e41}
+
+input[type=text]:active,input[type=password]:active{}
+input[type=button]:active,input[type=submit]:active {
+  background-color: #358cce;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+select{
+  width: 150px;
+  height: 18px;
+  
+  color: #8080ff;
+}
+select option { color: black; }
+select option:first-child{
+  color: green;
+}
+a{
+    color: blue; 
+}

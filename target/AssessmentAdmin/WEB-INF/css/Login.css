@@ -1,0 +1,26 @@
+#sidebar{
+    float: right;
+    width: 50%;
+    
+    border:2px solid #358cce;
+   
+    border-radius: 10px;
+    padding-left: 10px;
+}
+label{
+    background-color:#358cce;
+    width: 170px;
+    overflow: hidden; 
+    margin-bottom: 5px;
+    display: inline-block;
+    color: white;
+    height: 40px;
+
+
+}
+a,a ul{
+    color: blue;
+}
+#middle-wrap{
+    border-left: 3px solid #358cce;
+}
